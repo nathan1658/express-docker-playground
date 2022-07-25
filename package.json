@@ -1,0 +1,22 @@
+{
+  "name": "express-docker-playground",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathan1658/express-docker-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathan1658/express-docker-playground/issues"
+  },
+  "homepage": "https://github.com/nathan1658/express-docker-playground#readme"
+}
