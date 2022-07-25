@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "ss":"./a.sh"
   },
   "dependencies": {
     "express": "^4.16.1"
