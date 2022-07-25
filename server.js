@@ -11,7 +11,7 @@ const app = express();
 app.get("/", (req, res) => {
   let versionNo = require("./package.json").version;
 
-  res.send("Hello World SUCKER!!!! Version: " + versionNo);
+  res.send("Current version is" + versionNo);
 });
 
 app.listen(PORT, HOST);
