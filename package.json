@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "ss":"./a.sh"
+    "version": "echo $npm_package_version"
   },
   "dependencies": {
     "express": "^4.16.1"
