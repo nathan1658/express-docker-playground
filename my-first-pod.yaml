@@ -1,0 +1,22 @@
+# my-first-pod.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-first-pod-deployment
+  labels:
+    app: webserver
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: webserver
+  template:
+    metadata:
+      labels:
+        app: webserver
+    spec:
+      containers:
+        - name: pod-demo
+          image: localhost:5000/express-docker-playground:v4
+          ports:
+            - containerPort: 8080

@@ -10,8 +10,7 @@ const HOST = "0.0.0.0";
 const app = express();
 app.get("/", (req, res) => {
   let versionNo = require("./package.json").version;
-
-  res.send("Current version is" + versionNo);
+  res.send("Current version is" + versionNo+"~~~v4");
 });
 
 app.listen(PORT, HOST);
